@@ -25,12 +25,12 @@
         <Setter Property="FontSize" Value="22" />
         <Setter Property="FontFamily" Value="RegularFont" />
         <Setter Property="TextColor" Value="{AppThemeBinding Light={StaticResource SecondaryDarkText}, Dark={StaticResource PrimaryDarkText}}" />
-        <Setter Property="BackgroundColor" Value="{AppThemeBinding Light={StaticResource Primary}, Dark={StaticResource PrimaryDark}}" />
-        <Setter Property="BorderWidth" Value="0" />
-        <Setter Property="BorderColor" Value="{AppThemeBinding Light={StaticResource Primary}, Dark={StaticResource PrimaryDark}}" />
+        <Setter Property="BackgroundColor" Value="{AppThemeBinding Light={StaticResource PrimaryDark}, Dark={StaticResource TertiaryDarkText}}" />
+        <Setter Property="BorderWidth" Value="1" />
+        <Setter Property="BorderColor" Value="{AppThemeBinding Light={StaticResource Primary}, Dark={StaticResource Tertiary}}" />
         <Setter Property="VerticalOptions" Value="Fill" />
         <Setter Property="HorizontalOptions" Value="Fill" />
-        <Setter Property="CornerRadius" Value="0" />
+        <Setter Property="CornerRadius" Value="2" />
         <Setter Property="Padding" Value="0" />
         <Setter Property="Margin" Value="0,0,1,1" />
         <Setter Property="FontAutoScalingEnabled" Value="False" />
@@ -40,12 +40,12 @@
         <Setter Property="FontSize" Value="22" />
         <Setter Property="FontFamily" Value="RegularFont" />
         <Setter Property="TextColor" Value="{AppThemeBinding Light={StaticResource SecondaryDarkText}, Dark={StaticResource PrimaryDarkText}}" />
-        <Setter Property="BackgroundColor" Value="{AppThemeBinding Light={StaticResource Primary}, Dark={StaticResource PrimaryDark}}" />
-        <Setter Property="BorderWidth" Value="0" />
-        <Setter Property="BorderColor" Value="{AppThemeBinding Light={StaticResource Primary}, Dark={StaticResource PrimaryDark}}" />
+        <Setter Property="BackgroundColor" Value="{AppThemeBinding Light={StaticResource PrimaryDark}, Dark={StaticResource TertiaryDarkText}}" />
+        <Setter Property="BorderWidth" Value="1" />
+        <Setter Property="BorderColor" Value="{AppThemeBinding Light={StaticResource Primary}, Dark={StaticResource Tertiary}}" />
         <Setter Property="VerticalOptions" Value="Fill" />
         <Setter Property="HorizontalOptions" Value="Fill" />
-        <Setter Property="CornerRadius" Value="0" />
+        <Setter Property="CornerRadius" Value="2" />
         <Setter Property="Padding" Value="0" />
         <Setter Property="Margin" Value="0,0,1,1" />
         <Setter Property="FontAutoScalingEnabled" Value="False" />
@@ -55,9 +55,9 @@
         <Setter Property="FontSize" Value="14" />
         <Setter Property="FontFamily" Value="RegularFont" />
         <Setter Property="TextColor" Value="{AppThemeBinding Light={StaticResource SecondaryDarkText}, Dark={StaticResource PrimaryDarkText}}" />
-        <Setter Property="BackgroundColor" Value="{AppThemeBinding Light={StaticResource Primary}, Dark={StaticResource PrimaryDark}}" />
-        <Setter Property="BorderWidth" Value="1" />
-        <Setter Property="BorderColor" Value="{AppThemeBinding Light={StaticResource Primary}, Dark={StaticResource PrimaryDark}}" />
+        <Setter Property="BackgroundColor" Value="{AppThemeBinding Light={StaticResource Primary}, Dark={StaticResource TertiaryDark}}" />
+        <Setter Property="BorderWidth" Value="0" />
+        <Setter Property="BorderColor" Value="{AppThemeBinding Light={StaticResource Primary}, Dark={StaticResource Tertiary}}" />
         <Setter Property="VerticalOptions" Value="Fill" />
         <Setter Property="HorizontalOptions" Value="Fill" />
         <Setter Property="CornerRadius" Value="6" />
@@ -67,7 +67,7 @@
             <Shadow 
                         Brush="Black"
                         Offset="6,6"
-                        Radius="12"
+                        Radius="8"
                         Opacity="0.5"/>
         </Setter>
         <Setter Property="FontAutoScalingEnabled" Value="False" />
