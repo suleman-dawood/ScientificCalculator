@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ScientificCalculator.Views.MainPage"
+             Title="Scientific Calculator">
+
+    <Grid
+        RowDefinitions="*,68,48,44,44,48,64,64,64,64"
+        ColumnDefinitions="*,*,*,*,*">
+
+        <!-- Input Area -->
+        <Frame
+            HasShadow="False"
+            Padding="6,0,4,0"
+            Margin="12"
+            BorderColor= "{AppThemeBinding Light={StaticResource PrimaryDark}, Dark={StaticResource TertiaryDark}}"
+            BackgroundColor="#2C3240"
+            HorizontalOptions="EndAndExpand"
+            VerticalOptions="EndAndExpand"
+            Grid.Row="0"
+            Grid.Column="0"
+            Grid.ColumnSpan="5">
+            <Label
+                LineHeight="1.5"
+                VerticalTextAlignment="Center"
+                VerticalOptions="Center">
+                <Label.FormattedText>
+                    <FormattedString>
+                        <Span Text="" Style="{StaticResource InputBoxLabelStyle}" />
+                        <Span Text="│" FontSize="28" TextColor="{StaticResource Primary}" Style="{StaticResource InputBoxLabelStyle}" />
+                        <Span Text=" " Style="{StaticResource InputBoxLabelStyle}" />
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>
+        </Frame>
+        
+        <!-- Color Answer Row -->
+        <BoxView
+            VerticalOptions="Fill"
+            HorizontalOptions="Fill"
+            BackgroundColor= "{AppThemeBinding Light={StaticResource PrimaryDark}, Dark={StaticResource TertiaryDark}}"
+            Grid.Row="1"
+            Grid.ColumnSpan="5"/>
+
+        <!-- Color Scientific Rows -->
+        <BoxView
+            VerticalOptions="Fill"
+            HorizontalOptions="Fill"
+            BackgroundColor="{AppThemeBinding Light={StaticResource PrimaryDarkText}, Dark={StaticResource TertiaryDarkText}}"
+            Grid.Row="2"
+            Grid.RowSpan="4"
+            Grid.ColumnSpan="5"/>
+
+
+    </Grid>
+
+</ContentPage>
