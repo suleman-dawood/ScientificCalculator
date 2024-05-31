@@ -48,7 +48,6 @@ namespace ScientificCalculator.ViewModels
                 var inputString = NormalizeInput();
                 var expression = new Expression(inputString);
                 var result = expression.Evaluate();
-                Console.WriteLine(result.ToString());
 
                 ResultText = result.ToString();
             }
@@ -64,15 +63,18 @@ namespace ScientificCalculator.ViewModels
             {
                 {"×", "*"},
                 {"÷", "/"},
-                {"SIN", "Sin"},
-                {"COS", "Cos"},
-                {"TAN", "Tan"},
                 {"ASIN", "Asin"},
                 {"ACOS", "Acos"},
                 {"ATAN", "Atan"},
+                {"SIN", "Sin"},
+                {"COS", "Cos"},
+                {"TAN", "Tan"},
                 {"LOG", "Log"},
                 {"EXP", "Exp"},
                 {"LOG10", "Log10"},
+                {"LN", "Ln"},
+                {"ROUND", "Round"},
+                {"π", "Pi"},
                 {"POW", "Pow"},
                 {"SQRT", "Sqrt"},
                 {"ABS", "Abs"},
