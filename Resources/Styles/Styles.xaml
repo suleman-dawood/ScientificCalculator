@@ -155,7 +155,7 @@
     <Style TargetType="Label" x:Key="ResultLabelStyle">
         <Setter Property="FontSize" Value="28" />
         <Setter Property="TextColor" Value="{AppThemeBinding Light={StaticResource SecondaryDarkText}, Dark={StaticResource PrimaryDarkText}}" />
-        <Setter Property="FontFamily" Value="RegularFont" />
+        <Setter Property="FontFamily" Value="SimpleFont" />
         <Setter Property="LineBreakMode" Value="TailTruncation" />
         <Setter Property="FontAutoScalingEnabled" Value="False" />
     </Style>

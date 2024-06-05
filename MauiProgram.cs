@@ -14,7 +14,7 @@ namespace ScientificCalculator
                     fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
                     fonts.AddFont("OpenSans-Semibold.ttf", "OpenSansSemibold");
                     fonts.AddFont("ComicNeue-Regular.ttf", "RegularFont");
-                    fonts.AddFont("UbuntuSansMono-Regular.ttf", "UbuntuSansMonoRegular");
+                    fonts.AddFont("UbuntuSansMono-Regular.ttf", "SimpleFont");
                     fonts.AddFont("Cairo-Light.ttf", "LightFont");
                 });
 

@@ -21,7 +21,7 @@
 		<Nullable>enable</Nullable>
 
 		<!-- Display name -->
-		<ApplicationTitle>Scientific Calculator</ApplicationTitle>
+		<ApplicationTitle>MAUI Calc</ApplicationTitle>
 
 		<!-- App Identifier -->
 		<ApplicationId>com.companyname.scientificcalculator</ApplicationId>

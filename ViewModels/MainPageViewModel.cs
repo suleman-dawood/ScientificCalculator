@@ -73,6 +73,7 @@ namespace ScientificCalculator.ViewModels
             {
                 {"×", "*"},
                 {"÷", "/"},
+                {"LN", "Ln"},
                 {"ASIN", "Asin"},
                 {"ACOS", "Acos"},
                 {"ATAN", "Atan"},
@@ -82,7 +83,6 @@ namespace ScientificCalculator.ViewModels
                 {"LOG", "Log"},
                 {"EXP", "Exp"},
                 {"LOG10", "Log10"},
-                {"LN", "Ln"},
                 {"ROUND", "Round"},
                 {"π", "Pi"},
                 {"POW", "Pow"},
