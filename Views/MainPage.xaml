@@ -3,6 +3,8 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="ScientificCalculator.Views.MainPage"
              Title="Scientific Calculator">
+    
+
 
     <Grid
         RowDefinitions="*,68,60,60,60,60,64,64,64,64"
@@ -80,13 +82,12 @@
         <!-- Scientific Operators -->
 
         <!-- Row 1 -->
-        <Button
+        <Switch
             Grid.Row="2"
             Grid.Column="0"
             ZIndex="1"
             Margin="6,10,6,4"
-            Style="{StaticResource ScientificOperatorButtonStyle}"
-            Text="MEAN" />
+            Style="{StaticResource SwitchStyle}" />
 
         <Button
             Grid.Row="2"
@@ -94,7 +95,9 @@
             ZIndex="1"
             Margin="6,10,6,4"
             Style="{StaticResource ScientificOperatorButtonStyle}"
-            Text="MOD" />
+            Text="e" 
+            Command="{Binding NumberInputCommand}"
+            CommandParameter="e"/>
 
         <Button
             Grid.Row="2"
@@ -269,8 +272,6 @@
             Command="{Binding RegionOperatorCommand}"
             CommandParameter=")" />
 
-
-
         <!-- Mathematical Operators -->
         <Button
             Grid.Row="6"
@@ -417,8 +418,6 @@
             Style="{StaticResource NumberButtonStyle}"
             Text="⌫"
             Command="{Binding BackspaceCommand}" />
-
-        
 
     </Grid>
 

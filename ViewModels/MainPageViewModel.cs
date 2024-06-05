@@ -47,6 +47,16 @@ namespace ScientificCalculator.ViewModels
             {
                 var inputString = NormalizeInput();
                 var expression = new Expression(inputString);
+                expression.EvaluateParameter += delegate (string name, ParameterArgs args)
+                {
+                    if (name == "Pi")
+                        args.Result = Math.PI;
+                };
+                expression.EvaluateParameter += delegate (string name, ParameterArgs args)
+                {
+                    if (name == "e")
+                        args.Result = Math.Exp(1);
+                };
                 var result = expression.Evaluate();
 
                 ResultText = result.ToString();
